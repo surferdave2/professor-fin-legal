@@ -1,193 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Professor Fin</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Professor Fin</title>
+<meta name="description" content="Privacy Policy for Professor Fin, from Kusch Apps LLC.">
 <style>
-  :root {
-    --ink: #1a2530;
-    --muted: #55636f;
-    --line: #e3e8ec;
-    --accent: #0f6e5c;
-    --bg: #ffffff;
-  }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: var(--ink);
-    background: var(--bg);
-    line-height: 1.6;
-  }
-  .wrap {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 48px 20px 96px;
-  }
-  h1 {
-    font-size: 1.9rem;
-    margin-bottom: 4px;
-  }
-  .meta {
-    color: var(--muted);
-    font-size: 0.92rem;
-    margin-bottom: 36px;
-  }
-  h2 {
-    font-size: 1.25rem;
-    margin-top: 40px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--line);
-  }
-  h3 {
-    font-size: 1.02rem;
-    margin-top: 24px;
-    color: var(--ink);
-  }
-  p, li {
-    font-size: 0.98rem;
-    color: var(--ink);
-  }
-  ul {
-    padding-left: 22px;
-  }
-  li {
-    margin-bottom: 6px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 16px 0;
-    font-size: 0.92rem;
-  }
-  th, td {
-    text-align: left;
-    padding: 8px 10px;
-    border-bottom: 1px solid var(--line);
-    vertical-align: top;
-  }
-  th {
-    color: var(--muted);
-    font-weight: 600;
-  }
-  a {
-    color: var(--accent);
-  }
-  .callout {
-    background: #f3f8f6;
-    border: 1px solid #d8ebe5;
-    border-radius: 8px;
-    padding: 16px 18px;
-    margin: 20px 0;
-    font-size: 0.94rem;
-  }
-  .top-nav {
-    font-size: 0.9rem;
-    margin-bottom: 32px;
-  }
-  .top-nav a {
-    margin-right: 16px;
-  }
-  footer {
-    margin-top: 56px;
-    padding-top: 20px;
-    border-top: 1px solid var(--line);
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
+:root { --bg:#ffffff; --fg:#1d2a33; --muted:#5b6b76; --link:#0b5c8a; --rule:#dbe3e8; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#10181e; --fg:#e4ebef; --muted:#9db0bb; --link:#7cc4ee; --rule:#26343d; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg);
+  font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+nav { font-size:15px; margin-bottom:28px; padding-bottom:14px; border-bottom:1px solid var(--rule); }
+nav a { margin-right:16px; }
+a { color:var(--link); }
+h1 { font-size:2rem; line-height:1.2; margin:0 0 .4em; }
+h2 { font-size:1.25rem; margin:2em 0 .5em; }
+h3 { font-size:1.05rem; margin:1.6em 0 .4em; }
+p, li { overflow-wrap:anywhere; }
+ul, ol { padding-left:1.4em; }
+li { margin:.3em 0; }
+footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--rule); color:var(--muted); font-size:14px; }
 </style>
 </head>
 <body>
-<div class="wrap">
-
-  <div class="top-nav">
-    <a href="/">Home</a>
-    <a href="/support.html">Support</a>
-    <a href="/terms.html">Terms</a>
-  </div>
-
-  <h1>Privacy Policy</h1>
-  <div class="meta">Professor Fin — Kusch Apps, LLC · Last updated September 2026</div>
-
-  <p>Professor Fin ("the app," "we," "us") is a fishing-intelligence app that helps you plan trips, log catches, and get AI-assisted recommendations. This page explains what information the app collects, why, and who it's shared with. We've tried to write it in plain language rather than dense legal boilerplate — if anything here is unclear, contact us using the details at the bottom.</p>
-
-  <div class="callout">
-    <strong>The short version:</strong> we collect the minimum needed to run the app — your email, your location (only when you use a feature that needs it), and the fishing content you create. We don't use advertising networks, we don't use behavioral trackers, and we don't sell your data. You can export or permanently delete everything from Settings at any time.
-  </div>
-
-  <h2>Information We Collect</h2>
-
-  <h3>Account information</h3>
-  <p>To create an account, we collect your <strong>email address</strong> and a password. We don't collect your name, phone number, or physical address.</p>
-
-  <h3>Location</h3>
-  <p>Professor Fin uses location to fetch accurate local weather, tide, and season data, and to let you tag your own catches, trips, and saved fishing spots. Location can come from:</p>
-  <ul>
-    <li>your device's GPS (read one time when needed, in the foreground only — the app never tracks your location continuously or in the background)</li>
-    <li>a photo's built-in location metadata, if you attach an existing photo to a catch</li>
-    <li>a ZIP code or place name you type in manually</li>
-  </ul>
-  <p>Location tied to a saved catch, trip, or spot is stored as part of your account. A one-off location check that isn't saved to anything (like checking today's forecast) isn't stored.</p>
-
-  <h3>Content you create</h3>
-  <p>The app stores the fishing content you generate as part of using it, including:</p>
-  <ul>
-    <li>catch logs (species, measurements, technique, notes, and optional photos)</li>
-    <li>trips, saved waters, favorite places, and gear presets</li>
-    <li>messages you send to the in-app AI fishing assistant ("Ask Professor Fin")</li>
-    <li>your answers to the onboarding questionnaire (experience level, target species, goals)</li>
-    <li>any feedback you submit through the app</li>
-  </ul>
-  <p>This content is private to your account by default. We don't publish it, make it public, or aggregate it into anything shown to other users.</p>
-
-  <h2>How We Use Your Information</h2>
-  <ul>
-    <li><strong>To run the app's core features</strong> — authentication, displaying your own data back to you, weather/tide/season lookups, map display.</li>
-    <li><strong>To personalize recommendations</strong> — your stated experience level, target species, and your own catch history help tailor AI trip plans and chat responses to you specifically.</li>
-    <li><strong>To improve the app</strong> — a small amount of usage data (like how many AI requests you've made that day, used only to enforce fair-use limits) and, separately, an internal count of AI recommendation outcomes we may analyze in the future to improve forecast accuracy.</li>
-  </ul>
-  <p>We do not use your data for advertising, and we do not use any advertising SDKs, ad networks, or third-party trackers of any kind.</p>
-
-  <h2>Third-Party Services We Use</h2>
-  <p>To power specific features, limited pieces of data are sent to outside services that process it on our behalf. None of these services receive your name, email, or account identifier alongside the data described below.</p>
-
-  <table>
-    <tr><th>Service</th><th>What it's used for</th><th>What it receives</th></tr>
-    <tr><td>Open-Meteo, NOAA, USGS</td><td>Weather, tide, and water-level data</td><td>Coordinates and a date range — no account information</td></tr>
-    <tr><td>OpenStreetMap / Nominatim</td><td>Place-name and reverse-geocoding lookups</td><td>Coordinates, or a place name you typed — no account information</td></tr>
-    <tr><td>Zippopotam.us</td><td>ZIP code lookups</td><td>A ZIP code you typed — no account information</td></tr>
-    <tr><td>MapTiler</td><td>Map display</td><td>Map tile requests only</td></tr>
-    <tr><td>Anthropic (Claude)</td><td>AI trip planning, the in-app fishing assistant, catch-photo species identification, and photo-based condition reading</td><td>Your chat messages, trip notes, feedback text, and photos you submit to these features, and — for species identification only — an approximate, rounded-off version of a catch's location</td></tr>
-  </table>
-
-  <p>Your private catch notes (the notes field on an individual catch log) are never sent to any third party — they stay in our database and are only ever shown back to you.</p>
-
-  <h2>Data Storage and Security</h2>
-  <p>Your account data is stored using Supabase (a hosted database and authentication provider) and processed by our backend running on Google Cloud. These are our infrastructure providers, not independent third parties who use your data for their own purposes — think of them as the servers your data lives on, similar to any app's hosting provider.</p>
-
-  <h2>Your Choices and Rights</h2>
-  <ul>
-    <li><strong>Export your data</strong> — available any time from Settings, includes everything associated with your account.</li>
-    <li><strong>Delete your account</strong> — available any time from Settings. This permanently removes your profile, catch logs, trips, photos, chat history, and feedback from our systems.</li>
-  </ul>
-
-  <h2>Children's Privacy</h2>
-  <p>Professor Fin is not directed at children, and we do not knowingly collect information from anyone under 13. If you believe a child has provided us with personal information, contact us and we'll remove it.</p>
-
-  <h2>In-App Purchases</h2>
-  <p>Professor Fin does not currently offer in-app purchases or subscriptions. If that changes in the future, purchases will be handled through Apple's or Google's own payment systems, and this policy will be updated to reflect any additional data that involves.</p>
-
-  <h2>Changes to This Policy</h2>
-  <p>If we make material changes to how we collect or use your information, we'll update this page and revise the "last updated" date above.</p>
-
-  <h2>Contact</h2>
-  <p>Questions about this policy or your data can be sent to <a href="mailto:info@kuschapps.com">info@kuschapps.com</a>, or through the <a href="/support.html">support page</a>.</p>
-
-  <footer>
-    Professor Fin is developed and operated by Kusch Enterprises, LLC.
-  </footer>
-
-</div>
+<main>
+<nav aria-label="Legal pages">
+<a href="https://kuschapps.com/terms">Terms of Use</a>
+<a href="https://kuschapps.com/privacy">Privacy Policy</a>
+<a href="https://kuschapps.com/removal">Copyright and Removal Requests</a>
+</nav>
+<h1>Privacy Policy</h1>
+<p><strong>Professor Fin</strong><br>
+Effective date: October 7, 2026</p>
+<p>Kusch Apps LLC ("Kusch Apps," "we," "us") makes Professor Fin. This policy explains what information we collect, how we use and share it, and the choices you have. It applies to the Professor Fin app and related services. Our <a href="https://kuschapps.com/terms">Terms of Use</a> also apply.</p>
+<h2>1. Information we collect</h2>
+<p><strong>Information you give us.</strong>
+- Account details, such as your email address or sign-in details.
+- Your age check. At sign-up we ask for your date of birth to confirm you are 13 or older. We keep only that you passed, when, and which version of our Terms applied. We do not keep your date of birth.
+- Content you choose to share in Community: Photos, and Tips (written words and catch details such as species, month, and general conditions).
+- Your fishing activity in the app, such as trips and catches you log, and messages you send to the app's AI guide.
+- Messages you send us, and reports you make.</p>
+<p><strong>Information collected as you use the app.</strong>
+- Device and app information, such as device type, operating system, app version, and diagnostic and usage data.
+- Location, if you allow it, which we use to give you local forecasts and recommendations. You can turn this off in your device settings.
+- Purchase status, which we receive from the app store or our billing provider. We do not receive your full payment card details.</p>
+<p><strong>Photos.</strong> When you share a Photo, we store a cleaned copy with location and camera details removed. We do not keep the original in Community.</p>
+<h2>2. How we use information</h2>
+<p>We use information to provide, maintain, and improve Professor Fin; to personalize forecasts and recommendations; to run Community and keep it safe, including the automated photo check described below; to process purchases; to communicate with you about the Service; to answer requests and enforce our Terms; to protect against fraud and abuse; and to comply with the law.</p>
+<p>We do not sell your personal information, and we do not share it for advertising. We do not use Photos for advertising or marketing.</p>
+<h2>3. Automated photo check</h2>
+<p>We use an automated check, run by a third-party AI provider, to look at each Photo you share before it is shown. It checks for things that break our rules, including whether people appear. It does not identify anyone, compare faces, or create or store face templates. We may also review Photos ourselves, for example when one is reported. We do not promise that a person will review every Photo.</p>
+<p>We use the same kind of automated check on shared text.</p>
+<h2>4. What other users see</h2>
+<p>Other users see what you choose to share in Community: Photos and Tips. We never show your account name, email address, exact location, or the exact day or time of a catch. Photo viewers receive short-lived links rather than permanent ones.</p>
+<h2>5. How we share information</h2>
+<p>We share information only as follows:</p>
+<ul>
+<li><strong>Service providers</strong> that help us run Professor Fin, such as hosting and storage, AI services (including Anthropic, which receives each shared Photo and shared text so the automated check can run, and the content of messages to the app's AI guide), maps and weather, billing (including RevenueCat), and email delivery. They may use information only to provide services to us.</li>
+<li><strong>Other users</strong>, only what you choose to share in Community.</li>
+<li><strong>Legal and safety reasons</strong>, when we believe disclosure is required by law or needed to protect people, Professor Fin, or our rights.</li>
+<li><strong>Business changes</strong>, such as a sale, merger, or financing, in which case this policy continues to apply to your information unless we tell you otherwise.</li>
+<li><strong>With your consent</strong> or at your direction.</li>
+</ul>
+<h2>6. How long we keep information</h2>
+<p>We keep information while your account is active and as long as needed for the purposes in this policy.</p>
+<ul>
+<li><strong>Photos</strong> are kept until you unshare them, they are removed, or you delete your account, whichever comes first. We then delete them from our live systems promptly. Copies may remain in routine backups and system logs held by us or our service providers for a limited period in the ordinary course, after which they are overwritten. Our AI provider may keep a copy of a Photo for a limited time under its own policies. We may keep content longer where the law requires or to address safety or abuse issues.</li>
+<li><strong>Tips</strong> can remain after you unshare them or delete your account, without your name, account, location, or exact date. We remove the link to your account, and we will not try to re-identify them or let others do so.</li>
+<li><strong>Account information</strong> is deleted or de-identified when you delete your account, except where we need to keep it for legal, security, or accounting reasons.</li>
+</ul>
+<h2>7. Your choices and rights</h2>
+<p>You can unshare anything you shared, delete your account in the app, and turn off location in your device settings. You can ask us to access, correct, or delete your information by emailing <a href="mailto:info@kuschapps.com">info@kuschapps.com</a>.</p>
+<p>Depending on where you live, such as California and other states with privacy laws, you may have additional rights, including to know what we hold about you, to correct or delete it, and to not be treated differently for using these rights. We will respond as the law requires. You may use an authorized agent, and we may need to confirm your identity. If we deny a request, you can ask us to reconsider by replying to our message.</p>
+<p>We do not sell personal information or share it for cross-context advertising, as those terms are used in US state privacy laws.</p>
+<h2>8. Children</h2>
+<p>Professor Fin is for people 13 and older. We do not knowingly collect personal information from children under 13. If we learn that an account belongs to someone under 13, we will close it and delete the information associated with it. If you believe a child under 13 has an account, please contact us.</p>
+<p>Fishing photos often include children, usually posted by a parent or guardian. A parent or guardian can ask us to remove a photo of their child at any time by following the steps on our <a href="https://kuschapps.com/removal">Copyright and Removal Requests</a> page.</p>
+<h2>9. Security</h2>
+<p>We use reasonable measures to protect your information, such as encryption in transit and access controls. No system is completely secure, so we cannot guarantee security.</p>
+<h2>10. Where information is processed</h2>
+<p>Professor Fin is operated from the United States, and your information is processed and stored in the United States.</p>
+<h2>11. Changes to this policy</h2>
+<p>We may update this policy. If a change is significant, we will tell you in the app or by email. The date at the top shows when it last changed.</p>
+<h2>12. Contact</h2>
+<p>Kusch Apps LLC<br>
+5534 Saint Joe Road, Fort Wayne, IN 46835<br>
+<a href="mailto:info@kuschapps.com">info@kuschapps.com</a></p>
+<footer>&copy; 2026 Kusch Apps LLC</footer>
+</main>
 </body>
 </html>
-
